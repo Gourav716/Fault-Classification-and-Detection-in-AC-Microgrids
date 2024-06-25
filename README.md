@@ -1,4 +1,13 @@
 A deep learning algorithm using Tensorflow that achieved a 99% accuracy in fault detection and 97% accuracy in fault classification.
+The algorithm is able to detect faults even in the presence of noise signals with a signal-to-noise ratio of 30 dB. 
+
+A 200 MW Solar PV plant is designed in PSCAD to generate a variety of fault scenarios and fault signals, which were used to train and test the algorithm. 
+
+Signal processing techniques including Pywavelets, VMD, EMD, and Butterworth filtering are implemented to effectively filter noise signals.
+The filtering techniques were able to reduce the noise level by an average of 20 dB, which improved the response time by 15%. 
+
+NVIDIA Jetson Nano development kit was used to acquire and process signals via Python code.
+The Jetson Nano was able to acquire and process signals at a rate of 100 kHz, which is sufficient for real-time fault detection. 
 
 Solar PV Plant system designed in PSCAD :-
 ![PSCAD PV Plant](https://github.com/Gourav716/Fault-Classification-and-Detection-in-AC-Microgrids/assets/58388637/56e8a176-ab59-4ed3-83fe-088b2a938384)
