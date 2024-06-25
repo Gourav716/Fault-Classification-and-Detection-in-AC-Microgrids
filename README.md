@@ -1,4 +1,3 @@
-![IMG_20240328_153655](https://github.com/Gourav716/Fault-Classification-and-Detection-in-AC-Microgrids/assets/58388637/03344ff2-526e-41f6-99b5-d3d931c2c166)# Fault-Classification-and-Detection-in-AC-Microgrids
 A deep learning algorithm using Tensorflow that achieved a 99% accuracy in fault detection and 97% accuracy in fault classification.
 
 Solar PV Plant system designed in PSCAD :-
